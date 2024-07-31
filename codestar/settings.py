@@ -38,6 +38,7 @@ ALLOWED_HOSTS = ["8000-lauramayfox-djangoblog-1k1k1n05p4a.ws.codeinstitute-ide.n
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'cloudinary_storage',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     'django_summernote',
+    'cloudinary',
     'blog',
     'about',
     
